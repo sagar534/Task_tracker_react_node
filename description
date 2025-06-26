@@ -1,0 +1,82 @@
+ask Tracker App
+A simple full-stack Task Tracker application built using React for the frontend and Node.js + Express for the backend. It allows users to add, view, and delete tasks in real time.
+
+🚀 Features
+📋 Add new tasks
+
+✅ View all tasks
+
+❌ Delete tasks
+
+⚡ Fast and responsive UI with React
+
+🔌 RESTful API powered by Express.js
+
+🛠️ Tech Stack
+Frontend:
+
+React (Vite)
+
+Axios
+
+Backend:
+
+Node.js
+
+Express
+
+CORS Middleware
+
+📁 Folder Structure
+bash
+Copy
+Edit
+task-tracker/
+├── client/       # React app
+│   └── src/
+│       └── App.jsx
+├── server/       # Node.js backend
+│   └── index.js
+🧑‍💻 Getting Started
+1. Clone the repository
+bash
+Copy
+Edit
+git clone https://github.com/your-username/task-tracker.git
+cd task-tracker
+2. Start the backend server
+bash
+Copy
+Edit
+cd server
+npm install
+node index.js
+3. Start the React frontend
+bash
+Copy
+Edit
+cd client
+npm install
+npm run dev
+The app will run at http://localhost:5173 and connect to the backend on http://localhost:5000.
+
+🌐 API Endpoints
+Method	Endpoint	Description
+GET	/api/tasks	Get all tasks
+POST	/api/tasks	Add a new task
+DELETE	/api/tasks/:id	Delete a task by ID
+
+📌 Future Improvements
+Add a database (MongoDB or PostgreSQL)
+
+Edit/update task feature
+
+Mark tasks as completed
+
+Add user login/authentication
+
+📸 Demo
+Coming soon! (or upload a screenshot of the app here)
+
+📄 License
+This project is open source and available under the MIT License.
